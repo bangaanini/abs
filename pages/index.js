@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
-import { supabase } from '@/lib/supabaseClient';
-
+import { supabase } from '../lib/supabaseClient';
 const HARI = ['Minggu','Senin','Selasa','Rabu','Kamis','Jumat','Sabtu'];
 const OPSI_ABSEN = ['0','0,5 hari','1 hari','1,5 hari','2 hari','1 hari 2 jam'];
 
